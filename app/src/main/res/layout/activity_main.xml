@@ -29,13 +29,13 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_below="@+id/imageView"
             android:maxLines="1"
             android:paddingRight="5dp"
             android:text="30%"
             android:textColor="#ffff"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:id="@+id/textView2"
@@ -63,14 +63,14 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/imageView"
             android:layout_alignParentEnd="true"
             android:background="@drawable/rounded_corners"
             android:backgroundTint="#20123456"
             android:padding="5dp"
             android:text="10 sets"
             android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:layout_alignParentTop="true" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -95,12 +95,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_below="@+id/imageView"
             android:maxLines="1"
             android:paddingRight="5dp"
             android:text="35%"
             android:textColor="#ffff"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            android:layout_alignTop="@+id/textView2" />
 
         <TextView
             android:id="@+id/textView2"
@@ -128,14 +128,14 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/imageView"
             android:layout_alignParentEnd="true"
             android:background="@drawable/rounded_corners"
             android:backgroundTint="#20123456"
             android:padding="5dp"
             android:text="1 hour"
             android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:layout_alignParentTop="true" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -160,13 +160,13 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_below="@+id/imageView"
             android:maxLines="1"
             android:paddingRight="5dp"
             android:text="35%"
             android:textColor="#ffff"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:id="@+id/textView2"
@@ -194,14 +194,14 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/imageView"
             android:layout_alignParentEnd="true"
             android:background="@drawable/rounded_corners"
             android:backgroundTint="#20123456"
             android:padding="5dp"
             android:text="5 miles"
             android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:layout_alignParentTop="true" />
     </RelativeLayout>
 
 </LinearLayout>

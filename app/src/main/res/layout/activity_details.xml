@@ -50,11 +50,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="40dp"
-            android:paddingLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:maxLines="1"
+            android:paddingLeft="75dp"
             android:text="Complete Set 1"
             android:textColor="#fff"
-            android:textSize="25sp"
+            android:textSize="25dp"
             app:buttonTint="#fff" />
 
         <CheckBox
@@ -64,10 +65,11 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:paddingLeft="120dp"
-            android:text="Complete Set 1"
+            android:maxLines="1"
+            android:paddingLeft="75dp"
+            android:text="Complete Set 2"
             android:textColor="#fff"
-            android:textSize="25sp"
+            android:textSize="25dp"
             app:buttonTint="#fff" />
 
         <CheckBox
@@ -77,36 +79,25 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:paddingLeft="120dp"
-            android:text="Complete Set 1"
+            android:maxLines="1"
+            android:paddingLeft="75dp"
+            android:text="Complete Set 3"
             android:textColor="#fff"
-            android:textSize="25sp"
+            android:textSize="25dp"
             app:buttonTint="#fff" />
 
         <CheckBox
-            android:id="@+id/checkBox5"
+            android:id="@+id/checkBox8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:paddingLeft="120dp"
-            android:text="Complete Set 1"
+            android:maxLines="1"
+            android:paddingLeft="75dp"
+            android:text="Complete Set 4"
             android:textColor="#fff"
-            android:textSize="25sp"
-            app:buttonTint="#fff" />
-
-        <CheckBox
-            android:id="@+id/checkBox4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="120dp"
-            android:text="Complete Set 1"
-            android:textColor="#fff"
-            android:textSize="25sp"
+            android:textSize="25dp"
             app:buttonTint="#fff" />
 
     </LinearLayout>
